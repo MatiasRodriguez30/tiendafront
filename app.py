@@ -2,8 +2,8 @@ import streamlit as st
 import requests
 import urllib.parse
 
-API_URL = "http://localhost:8080/api/products"
-BASE_URL = "http://localhost:8080"
+API_URL = "https://28ca821660be.ngrok-free.app//api/products"
+BASE_URL = "https://28ca821660be.ngrok-free.app/"
 
 # --- Configuración de la página y Estilos CSS ---
 st.set_page_config(layout="centered", initial_sidebar_state="expanded")
